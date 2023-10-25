@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>FORMULIR</title>
-    </head>
-    <body>
-        <h2>Formulir pendaftaran anggota</h2>
-        <h3>Silahkan isi dengan benar</h3>
-        <form action="daftar anggota.php" method="POST" onsubmit="alert('GA BISA KAN.'); return false;">
-            <table border="1" rules="all" cellpadding="5">
-                <tr>
-                    <td>username:</td>
-                    <td>
-                        <input type="text" name="nama_pengguna">
-                    </td>
-                </tr>
-                <td>password</td>
-                <td>
-                    <input type="password" name="kata_sandi">
-                </td>
-                 <tr>
-                    <td colspan="2" align="center">
-                        <input type="checkbox"> Remember me
-                    </td>
-                </tr>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Web Zivora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''></a></div>
+            <div class="menu">
+                <ul>
+                     <li><a href="#home">HOME</a></li>
+                     <li><a href="#about">ABOUT</a></li>
+                     <li><a href="#portofolio">PORTOFOLIO</a></li>
+                     <li><a href="#contact">CONTACT</a></li>
+                     <li><a href="" class="tbl-biru">SIGN UP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!--untuk home-->
+    <section id="home">
+        <img src="C:\Users\Acer\Downloads\WhatsApp Image 2023-10-04 at 15.01.51.jpeg" width="350" height="400"/>
+        <div class="kolom">
+            <p class="deskripsi">hallo selamat datang</p>
+            <h2> ZIVORA MEYTALIA</h2>
+            <p></p>
+            <p><a href="" class="tbl-biru">pelajari lebih lanjut</a></p>
+        </div>
+    </section>   
 
-                <tr>
-                    <td colspan="2" align="left">
-                        <p>Jika belum punya akun <a href="zv2.html" target="_blank">klik here</a></p>
-                        <input type="submit" value="login">
-                    </td>
-                </tr>
-            </body>
+    <!--untuk about-->
+    <section id="about">
+        <div class="kolom">
+        <p class="deskripsi">Hallo Selamat Datang</p>
+        <h2>PROFIL</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit molestiae corrupti optio recusandae tempora? Id fugit cum doloremque quaerat fuga assumenda commodi molestiae ducimus expedita eligendi. Aut, hic sunt?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit molestiae corrupti optio recusandae tempora? Id fugit cum doloremque quaerat fuga assumenda commodi molestiae ducimus expedita eligendi. Aut, hic sunt?</p>
+        <p><a href=""class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+        </div>
+        <img src="C:\Users\Acer\Downloads\WhatsApp Image 2023-10-04 at 15.01.51.jpeg" width="350" height="400"/>
+    </section>
+
+    <!--untuk portofolio-->
+    <section id="portofolio">
+        <div class="tengah">
+            <div class="kolom">
+                <p class="deskripsi"></p>
+                <h2>PORTOFOLIO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nostrum!</p>
+                <img src="C:\Users\Acer\Downloads\WhatsApp Image 2023-10-04 at 15.01.51.jpeg" width="250" height="300"/>
+            </div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
